@@ -1,0 +1,138 @@
+*{
+    font-family: sans-serif;
+}
+
+.loginPage{
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.userRegistration{
+    border: 3px solid #60FCF1;
+    padding: 100px;
+    max-height: 90%;
+    border-radius: 50px;
+}
+.LoginPageTitle{
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+    color: rgba(228, 220, 220, 0.956);
+}
+
+.inputField{
+  outline: none;
+  padding: 5px 10px;
+  text-align: center;
+  margin:5px 0;
+  font-size: 0.98rem;
+  border-radius: 8px;
+  background-color: rgba(228, 220, 220, 0.956);
+  border: none;
+}
+.getOtpAndGenearte{
+    display: flex;
+    justify-content: space-between;
+}
+.loaderForOtp{
+    margin-left: 5px;
+}
+
+.inputFieldOTP{
+    width: 100px;
+    outline: none;
+    padding: 5px 10px;
+    border: none;
+    text-align: center;
+    font-size: 1rem;
+    margin: 5px 5px;
+    /* border-bottom: 2px solid gray; */
+    background-color: rgba(228, 220, 220, 0.956);
+    border-radius: 8px;
+}
+
+.buttonField{
+  
+    padding: 5px 10px;
+    border: 2px solid #008AFF;
+    background-color: #008AFF;
+    color: rgba(228, 220, 220, 0.956);
+    font-size: 1rem;
+    border-radius: 8px;
+}
+
+.buttonField:hover{
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    transition: background-color 0.3s ease-in, color 0.3s ease-in;
+}
+
+.SuccessMessage{
+    color: green;
+    font-size: 1rem;
+    margin: 0;
+}
+.FailureMessage{
+    color: red;
+    font-size: 1rem;
+    margin: 0;
+}
+.LinkMessage{
+    
+    color: rgba(228, 220, 220, 0.956);
+    font-size: 1rem;
+    margin: 0;
+}
+
+.LinkMessage:hover{
+    cursor: pointer;
+    color: #008AFF;
+    transition: color 0.3s ease-in,
+}
+
+.login{
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+.oauth2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 10px;
+}
+.others{
+    color: white;
+   
+    margin-top: 10px;
+    font-size: 1.1rem;
+}
+.googleBtn{
+   
+}
+.googleBtn:hover{
+     cursor: pointer;
+    transform: scale(1.02);
+}
+@media only screen and (max-width:500px) {
+    .userRegistration{
+        padding: 20px;
+        border-radius: 20px;
+    }
+
+}
+
+@media only screen and (max-height:500px) {
+    .userRegistration{
+        padding: 20px;
+        border-radius: 20px;
+        overflow-y: auto;
+    }
+
+}

@@ -1,0 +1,129 @@
+.speakAiContainer{
+    width: 100%;
+    height: 100vh;
+}
+.titleContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.titleText{
+    font-size: 3rem;
+    color: rgba(228, 220, 220, 0.956);
+   border-bottom: 5px solid #60FCF1;
+   border-radius: 10px;
+   margin-bottom: 10px;
+}
+.chatBoxContainer{
+    width: 80%;
+    height: 100vh;
+    padding-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.chatContainer{
+    background-color: #49d7ce20;
+}
+
+.infoPara{
+    color: rgba(228, 220, 220, 0.956);
+    font-family: sans-serif;
+    font-style: italic;
+    text-align: center;
+}
+
+.chatBox{
+    border: 3px solid #60fcf2c4;
+    background-color: #49d7ce20;
+    padding: 60px;
+    border-radius: 50px;
+    margin-top: auto;
+    margin-bottom: auto;
+   width: 100%;
+   height: 80vh;
+   margin-left: auto;
+   margin-right: auto;
+   scroll-margin-top: auto;
+   overflow-y: auto;
+
+}
+
+
+.chatBox::-webkit-scrollbar {
+    width: 5px; 
+    height: 10px;  
+}
+
+.chatBox::-webkit-scrollbar-track {
+    border-radius: 5px; 
+    background: #60FCF1;
+    margin: 30px;
+}
+
+.chatBox::-webkit-scrollbar-thumb {
+    background: #232c3cd7; 
+    border-radius: 5px; 
+  
+}
+
+.chatBox::-webkit-scrollbar-thumb:hover {
+    background: #1C222E; 
+   
+}
+
+@media (min-width: 768px) {
+    .chatBox {
+      width: 50%;
+    }
+}
+
+@media (max-width: 1200px) {
+    .chatBox {
+      width: 70%;
+    }
+}
+.mircrophone-icon{
+    font-size: 5rem;
+    background-color: white;
+    padding: 3px;
+    border-radius: 50%;
+}
+
+.mircrophone-icon:hover{
+    cursor: pointer;
+}
+
+.transcript{
+   color: white;
+   font-size: 1.2rem;
+}
+
+
+@media only screen and (max-width:500px) {
+    .chatBox{
+        padding: 20px;
+        border-radius: 20px;
+    }
+
+    .chatBoxContainer{
+        width: 100%;
+        height: 100vh;
+    }
+
+}
+
+@media only screen and (max-height:500px) {
+    .chatBox{
+        padding: 20px;
+        border-radius: 20px;
+    }
+    .chatBoxContainer{
+        width: 100%;
+        height: 100vh;
+    }
+
+}

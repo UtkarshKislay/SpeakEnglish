@@ -1,0 +1,22 @@
+
+.messageContainer{
+   min-height: 35px;
+   width: 80%;
+   border-radius: 25px;
+   padding: 10px;
+   color: white;
+   margin: 2px;
+   margin-bottom: 7px;
+}
+
+.aiMessage{
+  margin-right: auto;
+  margin-left: 2px;
+  background-color: gray;
+}
+
+.userMessage{
+  margin-left: auto;
+  margin-right: 2px;
+  background-color: blue;
+}

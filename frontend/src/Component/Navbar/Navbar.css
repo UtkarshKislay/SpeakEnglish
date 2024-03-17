@@ -1,0 +1,170 @@
+.navbarContainer {
+    width: 100%;
+    height: 110px;
+    background-color: #1C222E;
+    margin: 0;
+    margin-top: -6px;
+    padding: 0;
+}
+
+.navbarContent {
+    width: 80%;
+    height: 90%;
+    margin: 5px auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+.logoText {
+    color: rgba(228, 220, 220, 0.956);
+    font-family: sans-serif;
+    font-style: italic;
+    font-size: 2rem;
+}
+
+.lineBox {
+    height: 2px;
+    width: 150px;
+    background-color: #60FCF1;
+    margin-left: 5px;
+    border-radius: 5px;
+}
+
+.navTexts {
+    color: rgba(228, 220, 220, 0.956);
+    background: transparent;
+}
+
+
+.loginButton {
+    border: 3px solid #60FCF1;
+    padding: 10px 15px;
+    border-radius: 10px;
+    margin-left: 20px;
+}
+.navigationButtons{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+
+.loginButton:hover {
+    transition: background-color 0.3s linear;
+    cursor: pointer;
+    background-color: #49d7ceb6;
+}
+
+.loginButton:hover .navTexts {
+    color: #1C222E;
+}
+
+.hamburgerIcon {
+    display: none;
+}
+
+
+
+.navigationButtons2 {
+    display: none;
+}
+
+
+
+@media only screen and (max-width:768px) {
+    .navigationButtons {
+        display: none;
+    }
+
+    .navbarContent {
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .logo {
+        margin: auto;
+    }
+
+    .hamburgerIcon {
+        display: inline-block;
+        color: #60FCF1;
+        justify-self: flex-start;
+        font-size: 1.9rem;
+    }
+
+    .hamburgerIcon:hover {
+        cursor: pointer;
+    }
+
+    .sidebar {
+        position: fixed;
+        width: 90%;
+        top: 0;
+        left: -100%;
+        z-index: 1;
+        background-color: #1c222ef5;
+        transition: left 3s ease;
+        border-right: 2px solid #60FCF1;
+        border-top: 5px solid #60FCF1;
+        border-bottom: 5px solid #60FCF1;;
+        border-top-right-radius: 50px;
+        border-bottom-right-radius: 50px;
+        /* padding: 20px; */
+    }
+
+    .sideBarOpen {
+        left: 0;
+        margin-left: 0;
+
+    }
+
+    .crossIcon {
+        margin-top: 15px;
+        margin-right: 20px;
+        display: flex;
+        justify-content: flex-end;
+        font-size: 3.9rem;
+        background: transparent;
+        color: white;
+        margin-bottom: 25px;
+    }
+
+    .navigationButtons2 {
+       
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+    }
+
+    .navTexts2 {
+        color: rgba(228, 220, 220, 0.956);
+        background: transparent;
+        text-align: center;
+    }
+    
+    
+    .loginButton2 {
+        border: 3px solid #60FCF1;
+        padding: 10px 15px;
+        
+    }
+    
+    
+    .loginButton2:hover {
+        transition: background-color 0.3s linear;
+        cursor: pointer;
+        background-color: #49d7ceb6;
+    }
+    
+    .loginButton2:hover .navTexts2 {
+        color: #1C222E;
+    }
+
+}

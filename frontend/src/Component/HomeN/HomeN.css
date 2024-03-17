@@ -1,0 +1,54 @@
+
+
+.homeContainer{
+    width: 80%;
+    margin: 10px auto;
+}
+
+.homecontent{
+    width: 100%;
+    min-height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.textLearn{
+    font-size: 5rem;
+    color: #60FCF1;
+    margin-right: 7px;
+}
+
+.reactTypedComp{
+    display: flex;
+    flex-direction: column;
+    margin-top: -20vh;
+}
+
+.reactTypeContent{
+  font-size: 3.5rem;
+}
+
+@media only screen and (max-width:768px){
+     .textLearn{
+        font-size: 4.4rem;
+        color: #60FCF1;
+        margin-right: 7px;
+    }
+    .reactTypeContent{
+        font-size: 2.5rem;
+      }
+}
+
+
+
+
+
+
+
+
+
+
+
+

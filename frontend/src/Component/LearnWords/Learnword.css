@@ -1,0 +1,105 @@
+.basecontainer{
+    width: 100%;
+    min-height: 100vh;
+}
+
+.LearnWordContainer{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pageTitle{
+    border-bottom: 5px solid #60FCF1;
+    border-radius: 10px;  
+    margin-bottom: 20px;
+}
+
+.LearnWordTopic{
+    color: rgba(228, 220, 220, 0.956);
+    margin-top: 20px;
+    font-size: 2rem;
+}
+
+.generateStory{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    align-items: center;
+    justify-content: center;
+}
+
+.options{
+    display: flex;
+    flex-direction: row;
+}
+.storyBtn{
+    font-size: 1rem;
+    width: 100px;
+    margin: 0 5px;
+    padding: 5px 10px;
+    border: 2px solid #008AFF;
+    background-color: #008AFF;
+    color: rgba(228, 220, 220, 0.956);
+    font-size: 1rem;
+    border-radius: 8px;
+}
+
+.wordContainer{
+    margin-top: 20px;
+    border: 3px solid #60fcf2c4;
+    background-color: #49d7ce20;
+    padding: 60px;
+    border-radius: 50px;
+}
+
+.storyContainer{
+    margin-top: 20px;
+    border: 3px solid #60fcf2c4;
+    background-color: #49d7ce20;
+    padding: 60px;
+    border-radius: 50px;
+    text-align: center;
+}
+
+.storyContent{
+    background: transparent;
+    /* background-color: #49d7ce20; */
+}
+
+
+.wordMeaningContainer{
+    background-color: #49d7ce20;
+    color: rgba(228, 220, 220, 0.956);
+    padding-top: 10px;
+}
+.storyBtn:hover{
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    transition: background-color 0.3s ease-in, color 0.3s ease-in;
+}
+
+
+@media only screen and (max-width:500px) {
+    .storyContainer,.wordContainer{
+  
+
+        padding: 20px;
+        border-radius: 20px;
+    }
+
+}
+
+@media only screen and (max-height:500px) {
+    .storyContainer,.wordContainer{
+
+        padding: 20px;
+        border-radius: 20px;
+        
+    }
+
+}

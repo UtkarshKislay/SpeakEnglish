@@ -1,0 +1,41 @@
+.cardPage{
+    width: 270px;
+    height: 270px;
+    border: 3px solid #5fd5cdbf;
+    border-radius: 10%;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.SubTitle{
+    color: rgba(228, 220, 220, 0.956);
+    font-size: 1.5rem;
+    font-style: italic;
+}
+.content{
+    color: rgba(228, 220, 220, 0.956);
+    padding: 10px 20px;
+    text-align: center;
+}
+.navigate{
+    margin-top: 5px;
+}
+
+.naigateBtn{
+    color: rgba(228, 220, 220, 0.956);
+    font-size: 1rem;
+    border: 3px solid #008AFF;
+    background-color: #008AFF;
+    padding: 10px 15px;
+    border-radius: 10px;
+}
+
+.naigateBtn:hover{
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    transition: background-color 0.2s ease-in, color 0.3s ease-in;
+}
