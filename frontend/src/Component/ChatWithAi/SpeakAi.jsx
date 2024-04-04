@@ -49,7 +49,7 @@ const SpeakAi = () => {
     const navigate = useNavigate();
     useEffect(() => {
         if (userData.userEmail === undefined) {
-            navigate("/");
+            // navigate("/");
         }
     }, []);
 
@@ -61,15 +61,15 @@ const SpeakAi = () => {
         });
     }, [transcript, resFromAi]);
 
-    useEffect(() => {
-        const handleListing = () => {
-            setIsListening(true);
-            SpeechRecognition.startListening({
-                continuous: true,
-            });
-        };
-        handleListing();
-    }, []);
+    // useEffect(() => {
+    //     const handleListing = () => {
+    //         setIsListening(true);
+    //         SpeechRecognition.startListening({
+    //             continuous: true,
+    //         });
+    //     };
+    //     handleListing();
+    // }, []);
 
     useEffect(() => {
         try {
@@ -153,11 +153,6 @@ const SpeakAi = () => {
             setSilenceTimer(timer);
         }
     }, [transcript]);
-
-
-
-   
-
 
     return (
         <div className='speakAiContainer'>

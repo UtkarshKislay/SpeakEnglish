@@ -20,6 +20,7 @@ const Main = () => {
         <div className="contentCards">
           <Card title='Improve Vocabulary' content="In this game, you will learn some new English words in a very exciting manner. So let's start !!" link="learnNewWords" />
           <Card title="Speaking Skill" content="In this game, you will engage in direct conversations, which will enhance your speaking skills.  So let's start !!" link="speakAi" />
+          <Card title="Speaking Skill" content="In this game, you can give mock interview.  So let's start !!" link="mockInterview" />
         </div>
 
       </div>

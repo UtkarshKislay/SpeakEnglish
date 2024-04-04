@@ -7,6 +7,7 @@ import Learnword from './Component/LearnWords/Learnword';
 import SpeakAi from './Component/ChatWithAi/SpeakAi';
 import Navbar from './Component/Navbar/Navbar';
 import HomeN from './Component/HomeN/HomeN';
+import MockIntv from './Component/MockInterview/MockIntv';
 function App() {
   return (
     <div className="App">
@@ -31,6 +32,10 @@ function App() {
            <Route
             path="/Main/speakAi"
             element={<SpeakAi />}
+          ></Route>
+           <Route
+            path="/Main/mockInterview"
+            element={<MockIntv />}
           ></Route>
         </Routes>
       </Router>
